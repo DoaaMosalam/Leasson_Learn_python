@@ -35,7 +35,6 @@ print(message.strip())
 jobs =["Android","Laravel","Node", "Web developer","IT"]
 x = " - ".join(jobs)
 print(x)
-""
 
 print(favorite_language)
 #string index
