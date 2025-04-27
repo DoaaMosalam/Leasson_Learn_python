@@ -1,3 +1,5 @@
+# ['honda', 'yamaha', 'suzuki']
+
 jobs = [1,"Android",2,"It","Web",3,"Service","Front","Back","Android",True,False]
 print(jobs)
 
@@ -24,8 +26,11 @@ print(jobs.count("Android"))
 # insert item in index
 jobs.insert(1,"Android")
 print(jobs)
-
-jobs.pop()
+"""# pop()"""
+popped_item = jobs.pop()
+print(f"popped item: {popped_item.title()}")
+first_popped_item = jobs.pop(0)
+print(f"first popped item: { first_popped_item}")
 print(jobs)
 # reverse  list
 jobs.reverse()
@@ -34,6 +39,11 @@ print("reverse list . \t" ,jobs)
 jobs.remove("Android")
 print(jobs)
 
+
+del jobs[0]
+print(jobs)
+
 jobs.clear()
 print(jobs)
+
 
