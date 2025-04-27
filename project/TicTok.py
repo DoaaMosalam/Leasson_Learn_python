@@ -1,6 +1,8 @@
 import pygame as pg
 import sys
-
+''' 
+Create TicTok game
+'''
 # Initialize pygame
 pg.init()
 
