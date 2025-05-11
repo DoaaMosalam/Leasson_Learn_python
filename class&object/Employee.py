@@ -1,9 +1,9 @@
 
 class Employee:
-    def __init__(self, name, age, deprtmanr, is_manager, salary):
+    def __init__(self, name, age, departments, is_manager, salary):
         self.name = name
         self.age = age
-        self.deprtmanr = deprtmanr
+        self.departments = departments
         self.is_manager = is_manager
         self.salary = salary
 
@@ -16,9 +16,9 @@ class Employee:
                 return "Junior"
 
     def bonus(self):
-        if self.deprtmanr == "Manager":
+        if self.departments == "Manager":
             return self.salary * 0.20
-        elif self.deprtmanr == "Senior":
+        elif self.departments == "Senior":
             return self.salary * 0.15
         else:
             return self.salary * 0.10
