@@ -32,6 +32,11 @@ b=330
 x = "A" if a > b else "B"
 print(x)
 
+a=2
+b=330
+x="A" if a>b else "B"
+print(x)
+
 
 
 
