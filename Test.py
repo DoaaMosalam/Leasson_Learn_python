@@ -3,22 +3,22 @@
 x=[1, 5, 8,9,7]
 y=[1, 5, 6]
 
-# alphabet= ['a','b','c','d','e','f']
-# for i in range(len(alphabet)):
-#     print(alphabet[i])
-# print("======================================")
-# for i in x:
-#     print(i)
-# print("======================================")
-# for i in range(len(x)):
-#     print(i)
-# print("======================================")
-# for i in range(len(x)):
-#         print(x[i])
-# print("======================================")
-# d={'s':1, 'b':2, 'c': 3, 'd': 'hello', 'e': 0}
-# for i in d.values():
-#     print(i)
+alphabet= ['a','b','c','d','e','f']
+for i in range(len(alphabet)):
+    print(alphabet[i])
+print("======================================")
+for i in x:
+    print(i)
+print("======================================")
+for i in range(len(x)):
+    print(i)
+print("======================================")
+for i in range(len(x)):
+        print(x[i])
+print("======================================")
+d={'s':1, 'b':2, 'c': 3, 'd': 'hello', 'e': 0}
+for i in d.values():
+    print(i)
 # print("======================================")
 # def power(x,y=2):
 # #     r =1
